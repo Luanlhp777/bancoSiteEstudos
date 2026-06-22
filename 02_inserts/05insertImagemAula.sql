@@ -1,0 +1,65 @@
+INSERT INTO imagem_aula (
+    id_aula,
+    caminho_imagem,
+    texto_alt
+)
+VALUES (
+    40,
+    'images/imgAlgoritmos/1504img1.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img2.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img3.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img4.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img5.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img6.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img7.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img8.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img9.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img10.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img11.png',
+    'Função'
+),
+(
+    40,
+    'images/imgAlgoritmos/1504img12.png',
+    'Função'
+);
