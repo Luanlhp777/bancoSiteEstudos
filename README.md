@@ -40,18 +40,17 @@ O objetivo deste repositório é planejar e implementar a camada de dados que pe
 
 ---
 
-## 🏗️ Estrutura Planejada
+## 🏗️ Estrutura Atual
 
-O banco foi projetado para armazenar informações relacionadas ao ambiente de estudos, incluindo:
+O banco foi projetado inicialmente para armazenar:
 
+- Usuários
 - Módulos
 - Disciplinas
 - Aulas
-- Projetos
-- Tecnologias utilizadas
-- Histórico de estudos
+- Imagens das aulas
 
-Essa estrutura permitirá que novos conteúdos sejam cadastrados diretamente no banco de dados, facilitando a manutenção e evolução do sistema.
+Essa estrutura representa a primeira versão da camada de dados do projeto Meu Site de Estudos.
 
 ---
 
