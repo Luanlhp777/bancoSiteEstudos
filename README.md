@@ -1,121 +1,85 @@
-# Banco de Dados - Meu Site de Estudos
+# 🗄️ Banco de Dados - Meu Site de Estudos
 
-## Sobre
+Projeto desenvolvido para modelagem e estruturação do banco de dados do projeto **Meu Site de Estudos**.
 
-Este diretório contém toda a estrutura SQL utilizada no projeto **Meu Site de Estudos**.
-
-O objetivo do banco é armazenar módulos, disciplinas, aulas e imagens, substituindo gradualmente os dados estáticos armazenados em arquivos JavaScript.
+O objetivo deste repositório é planejar e implementar a camada de dados que permitirá armazenar disciplinas, módulos, aulas, projetos e demais informações do site de forma organizada, escalável e preparada para futuras integrações com aplicações web.
 
 ---
 
-## Modelagem
-
-Relacionamentos do sistema:
-
-```text
-USUARIO 1 ─── N AULA
-
-MODULO 1 ─── N DISCIPLINA
-
-DISCIPLINA 1 ─── N AULA
-
-AULA 1 ─── N IMAGEM_AULA
-```
-
----
-
-## Estrutura de Pastas
-
-```text
-banco/
-├── 01_estrutura/
-│   ├── 01_create_database.sql
-│   └── 02_create_tables.sql
-│
-├── 02_inserts/
-│   ├── 01_insert_usuario.sql
-│   ├── 02_insert_modulo.sql
-│   ├── 03_insert_disciplina.sql
-│   ├── 04_insert_aula.sql
-│   └── 05_insert_imagem_aula.sql
-│
-├── 03_views/
-│   └── 01_view_aulas_completas.sql
-│
-├── 04_consultas/
-│   ├── 01_todas_aulas_cadastradas.sql
-│   ├── 02_ultimas_aulas_cadastradas.sql
-│   ├── 03_quantidade_aulas_disciplina.sql
-│   ├── 04_quantidade_imagens_aula.sql
-│   ├── 05_consulta_imagens_aula.sql
-│   └── 06_consulta_relacionamento.sql
-│
-├── 05_manutencao/
-│   ├── 01_delete_imagem_aula.sql
-│   └── 02_alteracao_imagem_id.sql
-│
-└── README.md
-```
-
----
-
-## Descrição das Pastas
-
-### 01_estrutura
-
-Scripts responsáveis pela criação do banco de dados e das tabelas.
-
-### 02_inserts
-
-Scripts utilizados para inserção dos dados iniciais do sistema.
-
-### 03_views
-
-Views criadas para simplificar consultas e relatórios.
-
-### 04_consultas
-
-Consultas utilizadas para validação dos dados e geração de informações.
-
-### 05_manutencao
-
-Scripts utilizados para correção, atualização e remoção de registros.
-
----
-
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - MySQL
 - SQL
-- Modelagem Relacional
 - MySQL Workbench
+- Git
+- GitHub
 
 ---
 
-## Funcionalidades Implementadas
+## 📚 Conceitos Praticados
 
-- Criação do banco de dados
-- Criação das tabelas
-- Relacionamentos entre entidades
-- Inserção de dados
-- Views
-- Consultas com JOIN
-- Atualização de registros
-- Exclusão de registros
-- Organização dos scripts por categoria
-
----
-
-## Projeto Relacionado
-
-O banco de dados foi desenvolvido para o projeto **Meu Site de Estudos**, utilizado para registrar aulas, disciplinas, módulos e materiais produzidos durante o curso de Desenvolvimento de Sistemas.
+- Modelagem de Banco de Dados
+- Modelo Entidade-Relacionamento (MER)
+- Diagrama Entidade-Relacionamento (DER)
+- Chaves Primárias
+- Chaves Estrangeiras
+- Relacionamentos
+- Normalização
+- Consultas SQL
+- Estruturação de Dados
 
 ---
 
-## Autor
+## 🎯 Objetivo do Projeto
+
+- Planejar a estrutura de dados do Meu Site de Estudos
+- Organizar disciplinas, módulos e conteúdos em banco de dados
+- Substituir registros estáticos por dados persistidos
+- Aplicar boas práticas de modelagem relacional
+- Preparar a aplicação para futuras integrações com back-end
+
+---
+
+## 🏗️ Estrutura Planejada
+
+O banco foi projetado para armazenar informações relacionadas ao ambiente de estudos, incluindo:
+
+- Módulos
+- Disciplinas
+- Aulas
+- Projetos
+- Tecnologias utilizadas
+- Histórico de estudos
+
+Essa estrutura permitirá que novos conteúdos sejam cadastrados diretamente no banco de dados, facilitando a manutenção e evolução do sistema.
+
+---
+
+## 📈 Evolução
+
+Este projeto representa um passo importante na evolução do Meu Site de Estudos, marcando a transição de uma aplicação baseada em arquivos estáticos para uma estrutura orientada a dados.
+
+Além de fortalecer os conhecimentos em Banco de Dados, o projeto servirá como base para futuros estudos em desenvolvimento back-end e integração entre aplicações e bancos relacionais.
+
+---
+
+## 👨‍💻 Autor
 
 **Luan Araujo**
 
-Desenvolvimento de Sistemas - ETEC Albert Einstein
+🎓 Estudante de Análise e Desenvolvimento de Sistemas
 
-2026
+🔗 GitHub  
+https://github.com/Luanlhp777
+
+🌐 Projetos Online
+
+- Meu Site de Estudos  
+  https://luanlhp777.github.io/meu-site-estudos/
+
+- Exercícios JavaScript  
+  https://luanlhp777.github.io/exercicios/
+
+---
+
+⭐ Projeto focado em modelagem de dados, organização de informações e evolução da arquitetura do Meu Site de Estudos.
